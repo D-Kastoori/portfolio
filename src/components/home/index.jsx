@@ -12,11 +12,13 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/DasariKastoori.pdf'
 import { useTheme } from '../../common/themeContext';
+import sunLight from '../../assets/sun-light.png'
+import moonDark from '../../assets/moon-dark.png'
 
 function Home() {
   const { theme, toggleTheme } = useTheme();
 
-  const themeIcon = theme === 'light' ? sun : moon;
+  const themeIcon = theme === 'light' ? moonDark : sunLight;
   const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
