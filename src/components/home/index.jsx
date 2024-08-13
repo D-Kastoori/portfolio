@@ -39,9 +39,9 @@ function Home() {
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
+          Dasari
           <br />
-          Johnsen
+          Kastoori
         </h1>
         <h2>Frontend Developer</h2>
         <span>
